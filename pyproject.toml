@@ -1,0 +1,25 @@
+[project]
+name = "deep-search"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "aiofiles>=25.1.0",
+    "deepagents>=0.6.6",
+    "fastapi>=0.136.3",
+    "langchain-openai>=1.2.2",
+    "markdown>=3.10.2",
+    "mysql-connector-python>=9.7.0",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.3",
+    "pypdf>=6.12.2",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.2",
+    "python-multipart>=0.0.29",
+    "pywin32>=311",
+    "pyyaml>=6.0.3",
+    "ragflow-sdk==0.24.0", # 使用高版本就有问题
+    "requests>=2.34.2",
+    "tavily-python>=0.7.24",
+    "uvicorn[standard]>=0.48.0",
+    "colorlog>=6.10.1",
+]
